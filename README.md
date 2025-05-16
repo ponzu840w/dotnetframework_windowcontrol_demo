@@ -1,6 +1,7 @@
 ```
 # タスクバーへの最小化/タスクトレイへの格納
 # monoでは2回目のタスクトレイ格納ですべてが消滅するかも
+# と思ったらこれはiceWMのバグらしい
 mcs Minimize.cs -r:System.Windows.Forms -r:System.Drawing
 mono ./Minimize.exe
 
